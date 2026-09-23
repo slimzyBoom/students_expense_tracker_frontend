@@ -40,11 +40,6 @@ The UI is modeled directly after the high-fidelity financial dashboard specifica
 
 ```
 student_expense_tracker_frontend/
-├── .agent/
-│   └── skills/
-│       └── expense-frontend/
-│           └── SKILL.md              # Agent skill definition for scaffolding & testing
-├── design-reference.png              # UI visual design reference asset
 ├── public/                           # Static assets, icons, and branding
 ├── src/
 │   ├── app/                          # Next.js App Router
