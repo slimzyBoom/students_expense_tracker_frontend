@@ -165,5 +165,3 @@ All client requests target the backend API at `http://localhost:3000/api/v1`.
    ```bash
    npm run dev
    ```
-   Open [http://localhost:3001](http://localhost:3001) (or next available port) to access the application.
-
