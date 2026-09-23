@@ -10,7 +10,6 @@ Built with **Next.js 15**, **Tailwind CSS**, **Lucide React**, and **Recharts**,
 
 The UI is modeled directly after the high-fidelity financial dashboard specification:
 
-![Dashboard Design Reference](./design-reference.png)
 
 ### Theme & Styling Blueprint
 * **Sidebar Navigation:** Deep navy/slate palette (`#1a164b` / `bg-slate-950`) with active pill indicator for current routes, brand header (**MyFin** / **StudentVault**), and user profile footer. On screens `< 768px`, smoothly collapses into a responsive hamburger slide-over sheet.
@@ -33,7 +32,7 @@ The UI is modeled directly after the high-fidelity financial dashboard specifica
 * **Icons:** [Lucide React](https://lucide.dev/) (`lucide-react`)
 * **Charts & Visualizations:** [Recharts](https://recharts.org/) (`recharts`)
 * **Form & Validation:** React Hook Form & Zod
-* **Agent Capabilities:** Configured with custom Antigravity skill [`.agent/skills/expense-frontend/SKILL.md`](.agent/skills/expense-frontend/SKILL.md)
+
 
 ---
 
@@ -168,8 +167,3 @@ All client requests target the backend API at `http://localhost:3000/api/v1`.
    ```
    Open [http://localhost:3001](http://localhost:3001) (or next available port) to access the application.
 
----
-
-## 🤖 Agent Customization
-
-This project includes a dedicated Antigravity workflow skill located at [`.agent/skills/expense-frontend/SKILL.md`](.agent/skills/expense-frontend/SKILL.md). The skill guides autonomous code generation, styling verification against `design-reference.png`, and automated API integration.
